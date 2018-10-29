@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Offender>
+	<casemanagerlogin>
+		<username>cheshire.casemanager</username>
+		<password>Pa$$w0rd@Cheshire</password>
+	</casemanagerlogin>
+	<psc_login>
+		<username>psc_administrator</username>
+		<password>Pa$$w0rd@PscAdmin</password>
+	</psc_login>
+	<Network_ADD>
+		<RelationshipType>Co-Defendant</RelationshipType>
+		<Title>Mrs</Title>
+		<FirstName>Samy</FirstName>
+		<OtherNames>Sam</OtherNames>
+		<FamilyName>Telford</FamilyName>
+		<PreviousSurname>Jones</PreviousSurname>
+		<RelationshipToOffender>Mother</RelationshipToOffender>
+		<Gender>Female</Gender>
+		<MobileNumber>07934343434</MobileNumber>
+		<InvalidMobileNumber>00000000000000</InvalidMobileNumber>
+		<EmailAddress>E2ESIT01@moj.com</EmailAddress>
+		<StartDate>22/04/2017</StartDate>
+		<InvalidStartDate>22/11/2017</InvalidStartDate>
+		<EndDate>28/04/2017</EndDate>
+		<InvalidEndDate>24/11/2017</InvalidEndDate>
+		<Notes>Contact added</Notes>
+		<BuildingName>BuildingTwo</BuildingName>
+		<HouseNumber>456</HouseNumber>
+		<StreetName>StreetTwo</StreetName>
+		<District>DistrictTwo</District>
+		<TownCity>TownTwo</TownCity>
+		<County>CountyTwo</County>
+		<Postcode>SI1 TEE</Postcode>
+		<TelephoneNumber>020734343434</TelephoneNumber>
+		<StartDate>22/04/2017</StartDate>
+		<InvalidStartDate>22/11/2017</InvalidStartDate>
+		<EndDate>28/04/2017</EndDate>
+		<InvalidEndDate>24/11/2017</InvalidEndDate>
+	</Network_ADD>
+	<Network_UPD>
+		<RelationshipType>Emergency Contact</RelationshipType>
+		<Title>Mr</Title>
+		<FirstName>Samuales</FirstName>
+		<OtherNames>Sam</OtherNames>
+		<FamilyName>Telford</FamilyName>
+		<PreviousSurname>Jones</PreviousSurname>
+		<RelationshipToOffender>Friend</RelationshipToOffender>
+		<Gender>Male</Gender>
+		<InvalidMobileNumber>00000000000000</InvalidMobileNumber>
+		<MobileNumber>07934343434</MobileNumber>
+		<EmailAddress>E2ESIT01@moj.com</EmailAddress>
+		<StartDate>22/04/2017</StartDate>
+		<InvalidStartDate>22/11/2017</InvalidStartDate>
+		<EndDate>28/04/2017</EndDate>
+		<InvalidEndDate>24/11/2017</InvalidEndDate>
+		<Notes>Contact updated</Notes>
+		<BuildingName>BuildingTwo</BuildingName>
+		<HouseNumber>456</HouseNumber>
+		<StreetName>StreetTwo</StreetName>
+		<District>DistrictTwo</District>
+		<TownCity>TownTwo</TownCity>
+		<County>CountyTwo</County>
+		<Postcode>SI1 TEE</Postcode>
+		<MobileNumber>07989898989</MobileNumber>
+		<InvalidMobileNumber>00000000000</InvalidMobileNumber>
+		<TelephoneNumber>020734343434</TelephoneNumber>
+		<InvalidTelephoneNumber>ghfdsh</InvalidTelephoneNumber>
+		<StartDate>22/04/2017</StartDate>
+		<InvalidStartDate>22/11/2017</InvalidStartDate>
+		<EndDate>22/05/2017</EndDate>
+		<InvalidEndDate>24/11/2017</InvalidEndDate>
+	</Network_UPD>
+	<Address_ADD>
+		<Status>Main</Status>
+		<BuildingName>BuildingFive</BuildingName>
+		<HouseNumber>1234</HouseNumber>
+		<StreetName>StreetOne</StreetName>
+		<District>DistrictOne</District>
+		<TownCity>TownOne</TownCity>
+		<County>CountyOne</County>
+		<Postcode>SI1 TEE</Postcode>
+		<TelephoneNumber>01234567890</TelephoneNumber>
+		<StartDate>22/04/2017</StartDate>
+		<InvalidStartDate>22/11/2017</InvalidStartDate>
+		<EndDate>28/04/2017</EndDate>
+		<InvalidEndDate>24/11/2017</InvalidEndDate>
+		<NoFixedAbode>N</NoFixedAbode>
+		<Notes>Address Record Added</Notes>
+	</Address_ADD>
+	<Address_UPD>
+		<Status>M</Status>
+		<BuildingName>BuildingFive</BuildingName>
+		<HouseNumber>1234</HouseNumber>
+		<StreetName>StreetOne</StreetName>
+		<District>DistrictOne</District>
+		<TownCity>TownOne</TownCity>
+		<County>CountyOne</County>
+		<Postcode>SI1 TEE</Postcode>
+		<TelephoneNumber>01234567890</TelephoneNumber>
+		<StartDate>22/04/2017</StartDate>
+		<InvalidStartDate>22/11/2017</InvalidStartDate>
+		<EndDate>28/04/2017</EndDate>
+		<InvalidEndDate>24/11/2017</InvalidEndDate>
+		<NoFixedAbode>N</NoFixedAbode>
+		<Notes>Address Record Updated</Notes>
+	</Address_UPD>
+	<Accessibility_ADD>
+		<StartDate>22/04/2017</StartDate>
+		<InvalidStartDate>22/11/2017</InvalidStartDate>
+		<EndDate>28/04/2017</EndDate>
+		<InvalidEndDate>24/11/2017</InvalidEndDate>
+		<Accessibility_Type>Dyslexia</Accessibility_Type>
+		<Notes>Accessibility note Added</Notes>
+	</Accessibility_ADD>
+	<Accessibility_UPD>
+		<StartDate>22/04/2017</StartDate>
+		<InvalidStartDate>22/11/2017</InvalidStartDate>
+		<EndDate>28/04/2017</EndDate>
+		<InvalidEndDate>24/11/2017</InvalidEndDate>
+		<Accessibility_Type>Dyslexia</Accessibility_Type>
+		<Notes>Accessibility note Updated</Notes>
+	</Accessibility_UPD>
+	<Provision_ADD>
+		<StartDate>22/04/2017</StartDate>
+		<InvalidStartDate>22/11/2017</InvalidStartDate>
+		<EndDate>28/04/2017</EndDate>
+		<InvalidEndDate>24/11/2017</InvalidEndDate>
+		<Adjustment>Computer Software</Adjustment>
+		<Notes>Adjustment note Added</Notes>
+	</Provision_ADD>
+	<Provision_UPD>
+		<StartDate>22/04/2017</StartDate>
+		<InvalidStartDate>22/11/2017</InvalidStartDate>
+		<EndDate>28/04/2017</EndDate>
+		<InvalidEndDate>24/11/2017</InvalidEndDate>
+		<Notes>Adjustment note Updated</Notes>
+	</Provision_UPD>
+	<InductionLetter>
+		<DateOfAppt>9/05/2017</DateOfAppt>
+		<Location>London</Location>
+		<Notes>note added for induction letter</Notes>
+	</InductionLetter>
+	<ProtectedCharacteristics_UPD>
+		<ethnicity>Asian or Asian British: Bangladeshi</ethnicity>
+		<nationality>American</nationality>
+		<second_nationality>American Samoan</second_nationality>
+		<perfered_language>Bengali</perfered_language>
+		<interpreter_required>No</interpreter_required>
+		<immigration_status>UK National</immigration_status>
+		<immigration_number>12345</immigration_number>
+		<religion_belief>Christadelphian</religion_belief>
+	</ProtectedCharacteristics_UPD>
+
+	<Referral_ADD>
+		<referralType>Drug Testing Referral</referralType>
+		<referralDate>09/03/2016</referralDate>
+		<referralOutcome>Accepted</referralOutcome>
+		<referralSource>Court</referralSource>
+		<notes>Automation notes</notes>
+	</Referral_ADD>
+
+	<Referral_InvalidEDIT>
+		<referralType>- Select -</referralType>
+		<referralOutcome>- Select -</referralOutcome>
+		<referralSource>- Select -</referralSource>
+
+	</Referral_InvalidEDIT>
+
+	<Assessment_ADD>
+		<assessmentType>Drug Testing Assessment</assessmentType>
+		<assessmentDate>09/02/2016</assessmentDate>
+		<assessmentOutcome>Suitable</assessmentOutcome>
+		<SURequiredToattend>Yes</SURequiredToattend>
+		<SUAttended>No</SUAttended>
+		<SUAgreement>Yes</SUAgreement>
+		<notes>Automation notes</notes>
+	</Assessment_ADD>
+
+	<Assessment_EDIT>
+		<assessmentOutcome>Assessment Not Completed</assessmentOutcome>
+		<notes>Assessment updated</notes>
+	</Assessment_EDIT>
+
+	<Assessment_InvalidEDIT>
+		<SURequiredToattend>- Select -</SURequiredToattend>
+	</Assessment_InvalidEDIT>
+
+
+	<!--For UPW project Details -->
+	<UPWProject>
+		<UPWProject_ProjectDetails_ADD>
+			<Project_Status>Active</Project_Status>
+			<Project_Code>InternalProjectCodeForUPWprojecTest</Project_Code>
+			<Team>Merseyside CRC</Team>
+			<Project_Name>MeganexusTestingTeamForUnitedKingdm</Project_Name>
+			<Office_Team>Flex Team 2</Office_Team>
+			<High_Visibility>Yes</High_Visibility>
+			<Project_Type>ETE (Agency)</Project_Type>
+			<Start_Date>06/06/2017</Start_Date>
+			<End_Date>06/06/2018</End_Date>
+		</UPWProject_ProjectDetails_ADD>
+		<UPWProject_ProviderDetails_ADD>
+			<Provider>ProviderMeganexus</Provider>
+			<Street_Name>LaneFiveAndElevenForTesting</Street_Name>
+			<Telephone_Number>07 2233445566</Telephone_Number>
+			<Town_City>london/pune</Town_City>
+			<Building_Name>Pentagon</Building_Name>
+			<Building_Number>404</Building_Number>
+			<County>INDIA</County>
+			<Postcode>NW1 2SD</Postcode>
+		</UPWProject_ProviderDetails_ADD>
+		<UPWProject_BeneficiaryDetails_ADD>
+			<Beneficiary_Name>InterserveBeneficiaryDetails</Beneficiary_Name>
+			<Street_Name>LaneFiveAndSevenForTesting</Street_Name>
+			<Telephone_Number>07 998877445566</Telephone_Number>
+			<Town_City>London/pune</Town_City>
+			<Building_Name>NewPentagon</Building_Name>
+			<County>INDIA</County>
+			<Building_Number>405</Building_Number>
+			<Postcode>NW1 2SD</Postcode>
+		</UPWProject_BeneficiaryDetails_ADD>
+		<UPWProject_PlacementDetails_ADD>
+			<Placement_Name>PurpleFuturePlacementDetails</Placement_Name>
+			<Street_Name>FifthLane</Street_Name>
+			<Telephone_Number>07 12121212</Telephone_Number>
+			<Town_City>London/pune</Town_City>
+			<Building_Name>CibercityTower45</Building_Name>
+			<County>INDIA</County>
+			<Building_Number>406</Building_Number>
+			<Postcode>NW1 2SD</Postcode>
+			<Placement_Notes>Placement Added for UPW</Placement_Notes>
+		</UPWProject_PlacementDetails_ADD>
+		<UPWProject_ProjectAvailabilityInformation_ADD>
+			<Date_Requested>06/06/2017</Date_Requested>
+			<Date_Job_Evaluted>06/06/2017</Date_Job_Evaluted>
+			<Planned_Start_Date>06/06/2017</Planned_Start_Date>
+			<Minimum_Age>18</Minimum_Age>
+			<Maximum_Age>60</Maximum_Age>
+			<Minimum_No_In_Group>1</Minimum_No_In_Group>
+			<Maximum_No_In_Group>5</Maximum_No_In_Group>
+			<Gender_Suitability>Both</Gender_Suitability>
+			<Visibile_To_Public>Yes</Visibile_To_Public>
+			<Project_Not_Suitable_For_Notes>Old people and kids</Project_Not_Suitable_For_Notes>
+			<Date_ProjectAvailability>Friday</Date_ProjectAvailability>
+			<Start_ProjectAvailability>15:30</Start_ProjectAvailability>
+			<End_ProjectAvailability>17:00</End_ProjectAvailability>
+		</UPWProject_ProjectAvailabilityInformation_ADD>
+		<UPWProject_NatureOfWorkQualification_ADD>
+			<Nature_Of_Work>Cleaning / Maintenance</Nature_Of_Work>
+			<Qualification_Opportunities>Skills for Life / Basic Skills</Qualification_Opportunities>
+			<Nature_Of_Work_Notes>Any one can work</Nature_Of_Work_Notes>
+		</UPWProject_NatureOfWorkQualification_ADD>
+		<UPWProject_ProjectDetails_EDIT>
+			<High_Visibility>Yes</High_Visibility>
+			<End_Date>06/06/2019</End_Date>
+		</UPWProject_ProjectDetails_EDIT>
+		<UPWProject_ProviderDetails_EDIT>
+			<Provider>ProviderMeganexus</Provider>
+			<Street_Name>LaneFiveAndEleven</Street_Name>
+			<Telephone_Number>011 2233445566</Telephone_Number>
+			<Town_City>pune</Town_City>
+		</UPWProject_ProviderDetails_EDIT>
+		<UPWProject_PlacementDetails_EDIT>
+			<Placement_Name>PurpleFuture</Placement_Name>
+			<Telephone_Number>011 12121212</Telephone_Number>
+			<Town_City>London/pune</Town_City>
+			<Placement_Notes>Notes 2 Placement</Placement_Notes>
+		</UPWProject_PlacementDetails_EDIT>
+		<UPWProject_ProjectAvailabilityInformation_EDIT>
+			<Gender_Suitability>Male Only</Gender_Suitability>
+			<Visibile_To_Public>Yes</Visibile_To_Public>
+			<Project_Not_Suitable_For_Notes>Notes 2 added for update</Project_Not_Suitable_For_Notes>
+		</UPWProject_ProjectAvailabilityInformation_EDIT>
+		<UPWProject_NatureOfWorkQualification_EDIT>
+			<Nature_Of_Work_Notes>Notes added for update nature of work</Nature_Of_Work_Notes>
+		</UPWProject_NatureOfWorkQualification_EDIT>
+	</UPWProject>
+
+	<!-- For Edit UPW Details -->
+	<UPWDetails>
+		<Edit_UPWDetails>
+			<AgreedTravelFare>15.0</AgreedTravelFare>
+			<Notes>Edit UPW details notes</Notes>
+		</Edit_UPWDetails>
+	</UPWDetails>
+
+
+
+	<Registration_ADD>
+		<RegisteringOfficersProvider>West Yorkshire CRC
+		</RegisteringOfficersProvider>
+		<Register_Type>Child Concern</Register_Type>
+		<RegistrationDate>29/6/2017</RegistrationDate>
+		<ReviewPeriod>29/1</ReviewPeriod>
+		<NextReviewDate>28/09/2017</NextReviewDate>
+		<RegisteringOfficersTeam>Flex Team 1</RegisteringOfficersTeam>
+		<RegisteringOfficer>Altcourse(HMP)</RegisteringOfficer>
+		<Notes>Registration added</Notes>
+	</Registration_ADD>
+
+	<!--For Drug test -->
+	<DrugTestProfile_ADD>
+		<DateAssessed>05/04/2015</DateAssessed>
+		<Crc>Merseyside CRC</Crc>
+		<Team>WY002\Flex Team 2</Team>
+		<Officer>CaseManager WYTest</Officer>
+		<MainDrug>Heroin</MainDrug>
+		<AddMainDrugtoTestList>Yes</AddMainDrugtoTestList>
+		<EstimatedWeeklyCostofHabit>2345</EstimatedWeeklyCostofHabit>
+		<Notes>Profile created</Notes>
+		<DrugsToBeTestedFor>Cannabis</DrugsToBeTestedFor>
+	</DrugTestProfile_ADD>
+
+	<DrugTestProfile_EDIT>
+		<DateAssessed>03/04/2015</DateAssessed>
+		<Crc>Merseyside CRC</Crc>
+		<Team>WY002\Flex Team 2</Team>
+		<Officer>CaseManager WYTest</Officer>
+		<MainDrug>Katamine</MainDrug>
+		<AddMainDrugtoTestList>Yes</AddMainDrugtoTestList>
+		<EstimatedWeeklyCostofHabit>2345</EstimatedWeeklyCostofHabit>
+		<Notes>Profile created</Notes>
+		<DrugsToBeTestedFor>Cannabis</DrugsToBeTestedFor>
+	</DrugTestProfile_EDIT>
+
+	<DrugTestProfile_EDITInvalid>
+
+		<EstimatedWeeklyCostofHabit>235.23</EstimatedWeeklyCostofHabit>
+
+	</DrugTestProfile_EDITInvalid>
+
+	<!--For Drug Test Result -->
+
+	<DrugsTest_validAdd>
+		<DrugsTestID>4235812</DrugsTestID>
+		<EventID>2719034235</EventID>
+		<OffenderID>4235036208</OffenderID>
+		<DateOfTest>2016-07-13</DateOfTest>
+		<TestedBy>Amardeep</TestedBy>
+		<OffenderCompliance>Yes</OffenderCompliance>
+		<Notes>DrugNotes2</Notes>
+		<AdmittedUse>Yes</AdmittedUse>
+        <TestResult>Positive</TestResult>
+        <Agreed>Yes</Agreed>
+	</DrugsTest_validAdd>
+    <DrugsTest_validAddFuture>
+		<DrugsTestID>4235812</DrugsTestID>
+		<EventID>2719034235</EventID>
+		<OffenderID>4235036208</OffenderID>
+		<DateOfTest>2018-07-13</DateOfTest>
+		<TestedBy>future Date</TestedBy>
+		<Notes>Drug test add using future date</Notes>
+		
+	</DrugsTest_validAddFuture>
+	<DrugsTest_InvalidAdd>
+		<DrugsTestID>4235812</DrugsTestID>
+		<EventID>2719034235</EventID>
+		<OffenderID>4235036208</OffenderID>
+		<DateOfTest>2016-07-13</DateOfTest>
+		<TestedBy>sdfsdf dfgdsf xfddsf dfgsdf ddsfsd dfgsdfdssdfdsf dgsdf
+			sddsf sdfdsfffdssdfdfdfdsfsdfsdfsd sdfsdf sdfsdfsdffsdfs
+		</TestedBy>
+		<OffenderCompliance>Y</OffenderCompliance>
+		<Notes>Enter valid Drug test for add opearion</Notes>
+	</DrugsTest_InvalidAdd>
+	<DrugsTest_valid_Edit>
+		<DrugsTestID>4235812</DrugsTestID>
+		<EventID>2719034235</EventID>
+		<OffenderID>4235036208</OffenderID>
+		<DateOfTest>2016-07-03</DateOfTest>
+		<TestedBy>Valid test data</TestedBy>
+		<OffenderCompliance>Yes</OffenderCompliance>
+		<Notes>Enter Valid Drug Test for edit operation</Notes>
+		<AdmittedUse>No</AdmittedUse>
+        <TestResult>Negative</TestResult>
+        <Agreed>No</Agreed>
+	</DrugsTest_valid_Edit>
+	<DrugsTest_Invalid_Edit>
+		<DrugsTestID>4235812</DrugsTestID>
+		<EventID>2719034235</EventID>
+		<OffenderID>4235036208</OffenderID>
+		<DateOfTest>07-13-2016</DateOfTest>
+		<TestedBy>sdfsdf dfgdsf xfddsf dfgsdf ddsfsd dfgsdfdssdfdsf dgsdf
+			sddsf sdfdsfffdssdfdfdfdsfsdfsdfsd sdfsdf sdfsdfsdf
+		</TestedBy>
+		<OffenderCompliance>Yes</OffenderCompliance>
+		<Notes>Enter invalid value for tested by and date of test field
+		</Notes>
+	</DrugsTest_Invalid_Edit>
+
+
+	<!-- For Institutional Report Structure -->
+
+	<InstitutionalReport_valid_add>
+		<InstReportID>0</InstReportID>
+		<EventID>2500038637</EventID>
+		<OffenderID>2500042341</OffenderID>
+		<RequestedDate>2017-07-21</RequestedDate>
+		<RequiredByDate>2017-07-22</RequiredByDate>
+		<RequestedReportType>LHO</RequestedReportType>
+		<VideoLink>N</VideoLink>
+		<Institution>BXIHMP</Institution>
+		<InstReportProvider>C07</InstReportProvider>
+		<InstReportTeam>CG009/Flex Team 3</InstReportTeam>
+		<InstReportOfficer>person_6/CaseManager, CGMTest</InstReportOfficer>
+		<Notes>Institutional Report add</Notes>
+	</InstitutionalReport_valid_add>
+
+	<InstitutionalReport_invalid_add>
+		<InstReportID>0</InstReportID>
+		<EventID>2500038637</EventID>
+		<OffenderID>2500042341</OffenderID>
+		<RequestedDate>2017-07-21</RequestedDate>
+		<RequiredByDate>2017-07-21</RequiredByDate>
+		<RequestedReportType>LHO</RequestedReportType>
+		<VideoLink>N</VideoLink>
+		<Institution>BXIHMP</Institution>
+		<InstReportProvider>C07</InstReportProvider>
+		<InstReportTeam>CG009/Flex Team 3</InstReportTeam>
+		<InstReportOfficer>person_6/CaseManager, CGMTest</InstReportOfficer>
+		<Notes>vikram test</Notes>
+	</InstitutionalReport_invalid_add>
+
+	<InstitutionalReport_valid_edit>
+		<InstReportID>0</InstReportID>
+		<EventID>2500038637</EventID>
+		<OffenderID>2500042341</OffenderID>
+		<RequestedDate>2017-07-15</RequestedDate>
+		<RequiredByDate>2017-07-18</RequiredByDate>
+		<RequestedReportType>LHO</RequestedReportType>
+		<VideoLink>N</VideoLink>
+		<Institution>BXIHMP</Institution>
+		<InstReportProvider>C07</InstReportProvider>
+		<InstReportTeam>CG009/Flex Team 3</InstReportTeam>
+		<InstReportOfficer>person_6/CaseManager, CGMTest</InstReportOfficer>
+		<Notes>Institutional Report updated</Notes>
+	</InstitutionalReport_valid_edit>
+
+	<InstitutionalReport_invalid_edit>
+		<InstReportID>0</InstReportID>
+		<EventID>2500038637</EventID>
+		<OffenderID>2500042341</OffenderID>
+		<RequestedDate>2017-07-21</RequestedDate>
+		<RequiredByDate>2017-07-21</RequiredByDate>
+		<RequestedReportType>LHO</RequestedReportType>
+		<VideoLink>N</VideoLink>
+		<Institution>BXIHMP</Institution>
+		<InstReportProvider>C07</InstReportProvider>
+		<InstReportTeam>CG009/Flex Team 3</InstReportTeam>
+		<InstReportOfficer>person_6/CaseManager, CGMTest</InstReportOfficer>
+		<Notes>vikram test</Notes>
+	</InstitutionalReport_invalid_edit>
+	
+</Offender>
+
+

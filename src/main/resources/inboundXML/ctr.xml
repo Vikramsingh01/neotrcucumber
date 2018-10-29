@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><SPGInterchange xmlns="http://www.justice.gsi.gov.uk/SPG/" SchemaVersion="0-9-9" SchemaDate="2016-09-05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <!--(SenderIdentity , ReceiverIdentity , SenderControlReference , ReceiverControlReference? , DateOfPreparation , TimeOfPreparation , ApplicationReference , TestIndicator? , TestControlData?)-->
+   <SPGInterchangeHeader>
+        <SenderIdentity>N00</SenderIdentity>
+        <ReceiverIdentity>C20</ReceiverIdentity>
+        <SenderControlReference>16120200000378</SenderControlReference>
+        <ReceiverControlReference>1</ReceiverControlReference>
+        <DateOfPreparation>2017-01-25</DateOfPreparation>
+        <TimeOfPreparation>13:08:11</TimeOfPreparation>
+        <ApplicationReference>NDELIUS</ApplicationReference>
+        <TestIndicator>Y</TestIndicator>
+        <TestControlData>TestControlData1</TestControlData>
+    </SPGInterchangeHeader>
+   <!--(SPGMessageHeader , (ConnectionNotification | InterchangeStatusNotification | SimpleReferenceDataList | ComplexReferenceDataList | ReferenceDataLinkedList | AlfrescoPermissions | DocumentMetadata | AllocateOffender | AllocateEvent | ConsolidatedTransferRequest | ConsolidatedTransferResponse | DrugsTest | NatSearchResponse | OFFLOCResponse | ApprovedPremisesReferral | ApprovedPremisesResidence | Offender | Contact | CourtAppearance | CourtReport | ProposedRequirement | Event | Cohort | Alias | Address | AddressAssessment | Disability | Provision | PersonalContact | PersonalCircumstance | InstitutionalReport | Registration | RegistrationReview | CommunityRequirement | LicenceCondition | PSSRequirement | CustodyLocation | CustodyDate | AdditionalOffence | AdditionalSentence | Referral | Assessment | DrugsTestHDR | UPWAdjustment | UPWContact | UPWDetails | AdditionalIdentifier | ProcessContact | OffenderManager | OrderManager | Release | Recall | PSS | AllocateProcess | RateCardIntervention | DrugsTestDTL | ProviderLAODetails | NationalOffenderAlert | CommReqtManager | LicCondManager | PSSReqtManager | TerminateSentence | CustodyRelease | CustodyRecall | CustodyPSS | CustodyReleaseChange | CustodyRecallChange | CustodyPSSChange | CustodyReleaseUndo | CustodyRecallUndo | CustodyPSSUndo | TransferRequest | TransferResponse | OMTransferRequest | OSTransferRequest | RQTransferRequest | LCTransferRequest | PSSTransferRequest | NSITransferRequest | CRTransferRequest | IRTransferRequest | OMTransferResponse | OSTransferResponse | RQTransferResponse | LCTransferResponse | PSSTransferResponse | NSITransferResponse | CRTransferResponse | IRTransferResponse | CRCGetOffender | CRCGetEvent | OFFLOCRequest | OFFLOCResponseDTL | NationalSearchRequest | NatSearchResponseDTL | NatSearchResponseHDR | OFFLOCResponseHDR | NatSearchResponseRegn | NatSearchResponseCirc | NatSearchResponseEvent) , SPGMessageTrailer)-->
+   <SPGMessage>
+      <!--(MessageType , MessageVersionNumber , MessageReferenceNumber , MessageRecordIdentifier?)-->
+      <SPGMessageHeader>
+            <MessageType>INS</MessageType>
+            <MessageVersionNumber>0-9-9</MessageVersionNumber>
+            <MessageReferenceNumber>6950945836751</MessageReferenceNumber>
+            <MessageRecordIdentifier>MessageRecordIdentifier1</MessageRecordIdentifier>
+        </SPGMessageHeader>
+        <ConsolidatedTransferRequest>
+            <TransferRequest>
+                <TransferRequestDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <TransferRequest>
+                        <TransferID>42358</TransferID>
+                        <OffenderID>4235036208</OffenderID>
+                        <TransferDate>2016-12-02</TransferDate>
+                        <TransferUser>NDelius09, NDelius09</TransferUser>
+                    </TransferRequest>
+                </TransferRequestDetails>
+            </TransferRequest>
+            <OMTransferRequest>
+                <OMTransferRequestDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <OMTransferRequest>
+                        <TransferID>42358</TransferID>
+                        <OffenderID>4235036208</OffenderID>
+                        <OMTransferReason>OM</OMTransferReason>
+                        <OMTransferStatus>PN</OMTransferStatus>
+                        <OMTransferFromProvider>N01</OMTransferFromProvider>
+                        <OMTransferFromResponsibleTeam>N01UAT/Unallocated Team(N01)</OMTransferFromResponsibleTeam>
+                        <OMTransferFromResponsibleOfficer>N01UATU/Staff, Unallocated Staff(N01)</OMTransferFromResponsibleOfficer>
+                        <OMTransferToProvider>C05</OMTransferToProvider>
+                        <OMTransferToResponsibleTeam>C05T05/Diary Team</OMTransferToResponsibleTeam>
+                        <OMTransferToResponsibleOfficer>C05D002/Enzor, Lotus, ZZ</OMTransferToResponsibleOfficer>
+                    </OMTransferRequest>
+                </OMTransferRequestDetails>
+            </OMTransferRequest>
+            <OSTransferRequest>
+                <OSTransferRequestDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <OSTransferRequest>
+                        <TransferID>42358</TransferID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <OSTransferReason>OM</OSTransferReason>
+                        <OSTransferStatus>PN</OSTransferStatus>
+                        <OSTransferFromProvider>N01</OSTransferFromProvider>
+                        <OSTransferFromResponsibleTeam>N01UAT/Unallocated Team(N01)</OSTransferFromResponsibleTeam>
+                        <OSTransferFromResponsibleOfficer>N01UATU/Staff, Unallocated Staff(N01)</OSTransferFromResponsibleOfficer>
+                        <OSTransferToProvider>C05</OSTransferToProvider>
+                        <OSTransferToResponsibleTeam>C05T05/Diary Team</OSTransferToResponsibleTeam>
+                        <OSTransferToResponsibleOfficer>C05D002/Enzor, Lotus, ZZ</OSTransferToResponsibleOfficer>
+                    </OSTransferRequest>
+                </OSTransferRequestDetails>
+            </OSTransferRequest>
+			 <RQTransferRequest>
+                <RQTransferRequestDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                     <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <RQTransferRequest>
+                        <TransferID>42358</TransferID>
+                        <RequirementID>4235021729</RequirementID>
+                        <OffenderID>4235036208</OffenderID>
+                        <RQTransferReason>AEU</RQTransferReason>
+                        <RQTransferStatus>PN</RQTransferStatus>
+                        <RQTransferFromProvider>N01</RQTransferFromProvider>
+                        <RQTransferFromResponsibleTeam>N01T03/OMU C</RQTransferFromResponsibleTeam>
+                        <RQTransferFromResponsibleOfficer>N01P044/Hoefflin, Ike, ZZ</RQTransferFromResponsibleOfficer>
+                        <RQTransferToProvider>C05</RQTransferToProvider>
+                        <RQTransferToResponsibleTeam>C05T01/OMU A</RQTransferToResponsibleTeam>
+                        <RQTransferToResponsibleOfficer>C05P009/Apresel, Nikki, ZZ</RQTransferToResponsibleOfficer>
+                    </RQTransferRequest>
+                </RQTransferRequestDetails>
+            </RQTransferRequest>
+			<LCTransferRequest>
+                <LCTransferRequestDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <LCTransferRequest>
+                        <TransferID>42358</TransferID>
+                        <LicConditionID>2718734235</LicConditionID>
+                        <OffenderID>4235036208</OffenderID>
+                        <LCTransferReason>OM</LCTransferReason>
+                        <LCTransferStatus>PN</LCTransferStatus>
+                        <LCTransferFromProvider>N01</LCTransferFromProvider>
+                        <LCTransferFromResponsibleTeam>N01UAT/Unallocated Team(N01)</LCTransferFromResponsibleTeam>
+                        <LCTransferFromResponsibleOfficer>N01UATU/Staff, Unallocated Staff(N01)</LCTransferFromResponsibleOfficer>
+                        <LCTransferToProvider>C05</LCTransferToProvider>
+                        <LCTransferToResponsibleTeam>C05T01/OMU A</LCTransferToResponsibleTeam>
+                        <LCTransferToResponsibleOfficer>C05P005/Anyld, Annette, ZZ</LCTransferToResponsibleOfficer>
+                    </LCTransferRequest>
+                </LCTransferRequestDetails>
+            </LCTransferRequest>
+			 <PSSTransferRequest>
+                <PSSTransferRequestDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <PSSTransferRequest>
+                        <TransferID>42358</TransferID>
+                        <PSSRequirementID>9423559</PSSRequirementID>
+                        <OffenderID>4235036208</OffenderID>
+                        <PSSTransferReason>OM</PSSTransferReason>
+                        <PSSTransferStatus>PN</PSSTransferStatus>
+                        <PSSTransferFromProvider>N01</PSSTransferFromProvider>
+                        <PSSTransferFromResponsibleTeam>N01UAT/Unallocated Team(N01)</PSSTransferFromResponsibleTeam>
+                        <PSSTransferFromResponsibleOfficer>N01UATU/Staff, Unallocated Staff(N01)</PSSTransferFromResponsibleOfficer>
+                        <PSSTransferToProvider>C05</PSSTransferToProvider>
+                        <PSSTransferToResponsibleTeam>C05T01/OMU A</PSSTransferToResponsibleTeam>
+                        <PSSTransferToResponsibleOfficer>C05P005/Anyld, Annette, ZZ</PSSTransferToResponsibleOfficer>
+                    </PSSTransferRequest>
+                </PSSTransferRequestDetails>
+            </PSSTransferRequest>
+			<NSITransferRequest>
+                <NSITransferRequestDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <NSITransferRequest>
+                        <TransferID>42358</TransferID>
+                        <NSIID>4235000758</NSIID>
+                        <OffenderID>4235036208</OffenderID>
+                        <NSITransferReason>REC</NSITransferReason>
+                        <TransferStatus>PN</TransferStatus>
+                        <NSITransferFromProvider>N01</NSITransferFromProvider>
+                        <NSITransferFromResponsibleTeam>N01UAT/Unallocated Team(N01)</NSITransferFromResponsibleTeam>
+                        <NSITransferFromResponsibleOfficer>N01UATU/Staff, Unallocated Staff(N01)</NSITransferFromResponsibleOfficer>
+                        <NSITransferToProvider>C05</NSITransferToProvider>
+                        <NSITransferToResponsibleTeam>C05T05/Diary Team</NSITransferToResponsibleTeam>
+                        <NSITransferToResponsibleOfficer>C05D002/Enzor, Lotus, ZZ</NSITransferToResponsibleOfficer>
+                    </NSITransferRequest>
+                </NSITransferRequestDetails>
+            </NSITransferRequest>
+			<CRTransferRequest>
+				<CRTransferRequestDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+				   <CRTransferRequest>
+							<TransferID>42358</TransferID>
+							<CourtReportID>4235032655</CourtReportID>
+							<OffenderID>4235036208</OffenderID>
+							<CRTransferReason>CRC</CRTransferReason>
+							<CRTransferStatus>PN</CRTransferStatus>
+							<CRTransferFromProvider>C01</CRTransferFromProvider>
+							<CRTransferFromResponsibleTeam>CRTransferFromResponsibleTeam1</CRTransferFromResponsibleTeam>
+							<CRTransferFromResponsibleOfficer>CRTransferFromResponsibleOfficer1</CRTransferFromResponsibleOfficer>
+							<CRTransferToProvider>C20</CRTransferToProvider>
+							<CRTransferToResponsibleTeam>CRTransferToResponsibleTeam1</CRTransferToResponsibleTeam>
+							<CRTransferToResponsibleOfficer>CRTransferToResponsibleOfficer1</CRTransferToResponsibleOfficer>
+					</CRTransferRequest>
+				 </CRTransferRequestDetails>
+		    </CRTransferRequest>
+			<!-- <IRTransferRequest>
+                <IRTransferRequestDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                <IRTransferRequest>
+                        <TransferID>42358</TransferID>
+                        <InstReportID>4235007884</InstReportID>
+                        <OffenderID>4235036208</OffenderID>
+                        <IRTransferReason>CRC</IRTransferReason>
+                        <IRTransferStatus>PN</IRTransferStatus>
+                        <IRTransferWithdrawnReason>ER</IRTransferWithdrawnReason>
+                        <IRTransferFromProvider>C01</IRTransferFromProvider>
+                        <IRTransferFromResponsibleTeam>IRTransferFromResponsibleTeam1</IRTransferFromResponsibleTeam>
+                        <IRTransferFromResponsibleOfficer>IRTransferFromResponsibleOfficer1</IRTransferFromResponsibleOfficer>
+                        <IRTransferToProvider>C05</IRTransferToProvider>
+                        <IRTransferToResponsibleTeam>IRTransferToResponsibleTeam1</IRTransferToResponsibleTeam>
+                        <IRTransferToResponsibleOfficer>IRTransferToResponsibleOfficer1</IRTransferToResponsibleOfficer>
+                    </IRTransferRequest>
+                </IRTransferRequestDetails>
+            </IRTransferRequest> -->
+        </ConsolidatedTransferRequest>
+       <SPGMessageTrailer>
+            <MessageReferenceNumber>68849146238818</MessageReferenceNumber>
+        </SPGMessageTrailer>
+    </SPGMessage>
+   <!--(SenderControlReference , ReceiverControlReference? , ControlCount , SenderIdentity , ReceiverIdentity)-->
+   <SPGInterchangeTrailer>
+        <SenderControlReference>16120200000378</SenderControlReference>
+        <ReceiverControlReference>1</ReceiverControlReference>
+        <ControlCount>42948854235675</ControlCount>
+        <SenderIdentity>N00</SenderIdentity>
+        <ReceiverIdentity>C20</ReceiverIdentity>
+    </SPGInterchangeTrailer>
+</SPGInterchange>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dos>
+ <ServiceProvider_ADDValid>
+        <CRC>Merseyside CRC</CRC>
+        <serviceProviderName>JonnyKeaty</serviceProviderName>
+		<startDate>02/11/2010</startDate> 
+		<endDate>02/11/2011</endDate>
+		<addressLine1>2/11 Mahanagar</addressLine1>
+		<addressLine2>Fatehgarh</addressLine2>
+		<town>Pune</town>
+		<postcode>B1 2VB</postcode>
+		<provision>PF</provision>
+		<status>Inactive</status>
+</ServiceProvider_ADDValid>
+
+<ServiceProvider_ADDInvalid>
+       
+        <serviceProviderName>Apart1counting wordscharactersggdfgtycharactersggdfgty </serviceProviderName>
+		<startDate>2/07/2012</startDate> 
+		<endDate>13/01/2011</endDate>
+		<addressLine1>Apart counting wordscharactersggdfgtycharactersggdfgty </addressLine1>
+		<addressLine2>Apart counting words acharactersggdfgty</addressLine2>
+		<town>Apart counting words and charactesgg</town>
+		<postcode>S1 1DR0</postcode>
+</ServiceProvider_ADDInvalid>
+
+<ServiceProvider_EDITInvalid>
+        <CRC>Merseyside CRC</CRC>
+        <serviceProviderName>Apart from counting words and charactersgg</serviceProviderName>
+		<startDate>2/11/2011</startDate> 
+		<endDate>2/12/2011</endDate>
+		<addressLine1>Apart counting words and charactersgg</addressLine1>
+		<addressLine2>Apart counting words and charactesgg</addressLine2>
+		<town>Apart counting words and charactesgg</town>
+		<postcode>1A AA31</postcode>
+		
+</ServiceProvider_EDITInvalid>
+
+     <ServiceProvider_EDITValid> 
+        <serviceProviderName>PeterNanNew</serviceProviderName>
+		<startDate>02/11/2010</startDate> 
+		<endDate>02/11/2011</endDate>
+		<addressLine1>2/11 Mahanagar</addressLine1>
+		<addressLine2>Fatehgarh</addressLine2>
+		<town>Pune</town>
+		<postcode>N1 2VB</postcode>
+		<provision>PF</provision>
+		<status>Inactive</status>
+</ServiceProvider_EDITValid>
+
+
+ </Dos>
+ 

@@ -1,0 +1,47 @@
+<SPGInterchange xmlns="http://www.justice.gsi.gov.uk/SPG/" xmlns:spg="http://www.justice.gsi.gov.uk/SPG/" xmlns:wsa="http://www.w3.org/2005/08/addressing" SchemaDate="2016-09-05" SchemaVersion="0-9-9">
+    <SPGInterchangeHeader>
+        <SenderIdentity>C20</SenderIdentity>
+        <ReceiverIdentity>N00</ReceiverIdentity>
+        <SenderControlReference>20772012</SenderControlReference>
+        <DateOfPreparation>2017-05-03</DateOfPreparation>
+        <TimeOfPreparation>18:11:03</TimeOfPreparation>
+        <ApplicationReference>SHARD</ApplicationReference>
+        <TestIndicator>Y</TestIndicator>
+    </SPGInterchangeHeader>
+    <SPGMessage>
+        <SPGMessageHeader>
+            <MessageType>INS</MessageType>
+            <MessageVersionNumber>0-9-9</MessageVersionNumber>
+            <MessageReferenceNumber>1</MessageReferenceNumber>
+        </SPGMessageHeader>
+        <Provision>
+            <ProvisionDetails>
+                <Offender>
+                    <CaseReferenceNumber>X011101</CaseReferenceNumber>
+                </Offender>
+                <SPGVersion>
+                    <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                    <SPGUpdateUser>SuperUser, Outbound</SPGUpdateUser>
+                </SPGVersion>
+                <Provision>
+                    <ProvisionID>0</ProvisionID>
+                    <DisabilityID>0</DisabilityID>
+                    <OffenderID>1101031101</OffenderID>
+                    <Adjustment>99</Adjustment>
+                    <StartDate>2017-04-24</StartDate>
+                    <Notes>Adjustment note Added</Notes>
+                    <EndDate>2017-04-28</EndDate>
+                </Provision>
+            </ProvisionDetails>
+        </Provision>
+        <SPGMessageTrailer>
+            <MessageReferenceNumber>1</MessageReferenceNumber>
+        </SPGMessageTrailer>
+    </SPGMessage>
+    <SPGInterchangeTrailer>
+        <SenderControlReference>20772012</SenderControlReference>
+        <ControlCount>1</ControlCount>
+        <SenderIdentity>C20</SenderIdentity>
+        <ReceiverIdentity>N00</ReceiverIdentity>
+    </SPGInterchangeTrailer>
+</SPGInterchange>

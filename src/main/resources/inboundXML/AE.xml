@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?><SPGInterchange xmlns="http://www.justice.gsi.gov.uk/SPG/" SchemaVersion="0-9-9" SchemaDate="2016-09-05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <!--(SenderIdentity , ReceiverIdentity , SenderControlReference , ReceiverControlReference? , DateOfPreparation , TimeOfPreparation , ApplicationReference , TestIndicator? , TestControlData?)-->
+   <SPGInterchangeHeader>
+        <SenderIdentity>N00</SenderIdentity>
+        <ReceiverIdentity>C20</ReceiverIdentity>
+        <SenderControlReference>16120200000378</SenderControlReference>
+        <ReceiverControlReference>1</ReceiverControlReference>
+        <DateOfPreparation>2017-01-25</DateOfPreparation>
+        <TimeOfPreparation>13:08:11</TimeOfPreparation>
+        <ApplicationReference>NDELIUS</ApplicationReference>
+        <TestIndicator>Y</TestIndicator>
+        <TestControlData>TestControlData1</TestControlData>
+    </SPGInterchangeHeader>
+   <!--(SPGMessageHeader , (ConnectionNotification | InterchangeStatusNotification | SimpleReferenceDataList | ComplexReferenceDataList | ReferenceDataLinkedList | AlfrescoPermissions | DocumentMetadata | AllocateOffender | AllocateEvent | ConsolidatedTransferRequest | ConsolidatedTransferResponse | DrugsTest | NatSearchResponse | OFFLOCResponse | ApprovedPremisesReferral | ApprovedPremisesResidence | Offender | Contact | CourtAppearance | CourtReport | ProposedRequirement | Event | Cohort | Alias | Address | AddressAssessment | Disability | Provision | PersonalContact | PersonalCircumstance | InstitutionalReport | Registration | RegistrationReview | CommunityRequirement | LicenceCondition | PSSRequirement | CustodyLocation | CustodyDate | AdditionalOffence | AdditionalSentence | Referral | Assessment | DrugsTestHDR | UPWAdjustment | UPWContact | UPWDetails | AdditionalIdentifier | ProcessContact | OffenderManager | OrderManager | Release | Recall | PSS | AllocateProcess | RateCardIntervention | DrugsTestDTL | ProviderLAODetails | NationalOffenderAlert | CommReqtManager | LicCondManager | PSSReqtManager | TerminateSentence | CustodyRelease | CustodyRecall | CustodyPSS | CustodyReleaseChange | CustodyRecallChange | CustodyPSSChange | CustodyReleaseUndo | CustodyRecallUndo | CustodyPSSUndo | TransferRequest | TransferResponse | OMTransferRequest | OSTransferRequest | RQTransferRequest | LCTransferRequest | PSSTransferRequest | NSITransferRequest | CRTransferRequest | IRTransferRequest | OMTransferResponse | OSTransferResponse | RQTransferResponse | LCTransferResponse | PSSTransferResponse | NSITransferResponse | CRTransferResponse | IRTransferResponse | CRCGetOffender | CRCGetEvent | OFFLOCRequest | OFFLOCResponseDTL | NationalSearchRequest | NatSearchResponseDTL | NatSearchResponseHDR | OFFLOCResponseHDR | NatSearchResponseRegn | NatSearchResponseCirc | NatSearchResponseEvent) , SPGMessageTrailer)-->
+   <SPGMessage>
+      <!--(MessageType , MessageVersionNumber , MessageReferenceNumber , MessageRecordIdentifier?)-->
+      <SPGMessageHeader>
+            <MessageType>INS</MessageType>
+            <MessageVersionNumber>0-9-9</MessageVersionNumber>
+            <MessageReferenceNumber>6950945836751</MessageReferenceNumber>
+            <MessageRecordIdentifier>MessageRecordIdentifier1</MessageRecordIdentifier>
+        </SPGMessageHeader>
+        <AllocateEvent>
+            <Event>
+                <EventDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <Event>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <ReferralDate>2012-01-08</ReferralDate>
+                        <EventNumber>1</EventNumber>
+                        <Notes>Event Added </Notes>
+                        <ConvictionDate>2012-01-08</ConvictionDate>
+                        <OSResponsibleTeam>N01UAT/Unallocated Team(N01)</OSResponsibleTeam>
+                        <OSResponsibleOfficer>N01UATU/Staff, Unallocated Staff(N01)</OSResponsibleOfficer>
+                        <OSProvider>N01</OSProvider>
+                        <OffenceDate>2012-01-06</OffenceDate>
+                        <OffenceCount>1</OffenceCount>
+						<TICS>23</TICS> 
+                        <OffenceCode>03700</OffenceCode>
+                        <SentenceDate>2012-01-08</SentenceDate>
+                        <OrderType>301</OrderType>
+						<Length>22</Length>
+						<LengthUnit>M</LengthUnit>
+						<EnteredLength>22</EnteredLength>
+                        <EnteredLengthUnit>M</EnteredLengthUnit>
+						<LengthDays>669</LengthDays>
+						<!-- <SecondLength>34</SecondLength>     -->
+						<!-- <SecondLengthUnit>M</SecondLengthUnit> -->
+                        <ExpectedEndDate>2013-11-07</ExpectedEndDate>
+						<TerminationDate>2013-11-07</TerminationDate>
+						<TerminationReason>34</TerminationReason>
+						<RSRScore>5.9</RSRScore>
+						<RSRDate>2012-02-08</RSRDate>
+						<RSRProvider>C05</RSRProvider>
+						<AllocationDecision>A</AllocationDecision>
+						<AllocationDate>2012-02-08</AllocationDate>
+						<DecisionProvider>C05</DecisionProvider>
+						<AllocatedProvider>C05</AllocatedProvider>
+						<OGRS2Score>12</OGRS2Score>
+						<OGRS3Score1>12</OGRS3Score1>
+						<OGRS3Score2>12</OGRS3Score2>
+                    </Event>
+                </EventDetails>
+            </Event>
+			<Cohort>
+                <CohortDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <Cohort>
+                        <CohortID>124235</CohortID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <CohortProvider>N01</CohortProvider>
+                        <StartDate>2012-01-08</StartDate>
+                        <CohortCode>N01-2011-F4</CohortCode>
+                        <SentenceReleaseDate>2012-01-08</SentenceReleaseDate>
+                    </Cohort>
+                </CohortDetails>
+            </Cohort>
+			<CourtAppearance>
+                <CourtAppearanceDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <CourtAppearance>
+                        <CourtAppearanceID>4235032945</CourtAppearanceID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <CourtDate>2012-01-08</CourtDate>
+                        <Court>DOLGCC</Court>
+                        <CourtAppearanceType>S</CourtAppearanceType>
+                        <Plea>G</Plea>
+                        <Outcome>301</Outcome>
+                        <Notes>Court apearance note added 1</Notes>
+                    </CourtAppearance>
+                </CourtAppearanceDetails>
+            </CourtAppearance>
+			  <CourtReport>
+                <CourtReportDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <CourtReport>
+                        <CourtReportID>4235032655</CourtReportID>
+                        <CourtAppearanceID>4235032945</CourtAppearanceID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <RequestedDate>2001-05-14</RequestedDate>
+                        <RequiredByDate>2010-01-10</RequiredByDate>
+                        <RequiredByCourt>ABDSUM</RequiredByCourt>
+                        <RequestedReportType>CR08</RequestedReportType>
+                        <CrtReportProvider>N01</CrtReportProvider>
+                        <CrtReportTeam>N01T01/OMU A </CrtReportTeam>
+                        <CrtReportOfficer>N01P002/Cobio, Titus, ZZ</CrtReportOfficer>
+                    </CourtReport>
+                </CourtReportDetails>
+            </CourtReport>
+			<ProposedRequirement>
+              <ProposedRequirementDetails>
+				   <Offender>
+					   <CaseReferenceNumber>J974235</CaseReferenceNumber>
+				   </Offender>
+                   <SPGVersion>
+						<SPGVersion>4530042E5D08FBD6E053141812AC7991</SPGVersion>
+							<SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+               <ProposedRequirement>
+                    <ProposedRequirementID>4235005655</ProposedRequirementID>
+                    <CourtReportID>4235032655</CourtReportID>
+                    <EventID>2719034235</EventID>
+                    <OffenderID>4235036208</OffenderID>
+					 <RequirementTypeMainCategory>B</RequirementTypeMainCategory>
+					 <RequirementTypeSubCategory>RS225</RequirementTypeSubCategory>
+					 <ADRequirementTypeMainCategory>AR03</ADRequirementTypeMainCategory>
+					 <ADRequirementTypeSubCategory>P00</ADRequirementTypeSubCategory>
+					 <Length>10</Length>      
+                </ProposedRequirement>
+              </ProposedRequirementDetails>
+           </ProposedRequirement>
+		   <AdditionalOffence>
+                <AdditionalOffenceDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <AdditionalOffence>
+                        <AdditionalOffenceID>4235007010</AdditionalOffenceID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <OffenceCode>04300</OffenceCode>
+                        <OffenceDate>2010-01-11</OffenceDate>
+                        <OffenceCount>1</OffenceCount>
+                    </AdditionalOffence>
+                </AdditionalOffenceDetails>
+            </AdditionalOffence>
+			<AdditionalSentence>
+                <AdditionalSentenceDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <AdditionalSentence>
+                        <AdditionalSentenceID>4235007004</AdditionalSentenceID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <AdditionalSentence>CFSC</AdditionalSentence>
+                        <Length>22</Length>
+                    </AdditionalSentence>
+                </AdditionalSentenceDetails>
+            </AdditionalSentence>
+			<!-- <InstitutionalReport>
+                <InstitutionalReportDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <InstitutionalReport>
+                        <InstReportID>4235007884</InstReportID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <RequestedDate>2016-01-15</RequestedDate>
+                        <RequiredByDate>2016-01-15</RequiredByDate>
+                        <RequestedReportType>IRPT10</RequestedReportType>
+                        <AllocatedDate>2016-01-15</AllocatedDate>
+                        <VideoLink>N</VideoLink>
+                        <CompletedDate>2016-01-15</CompletedDate>
+                        <Institution>COMMUN</Institution>
+                        <DeliveredtoEstablishment>2016-01-15</DeliveredtoEstablishment>
+                        <DateAbandoned>2016-01-15</DateAbandoned>
+                        <InstReportProvider>N01</InstReportProvider>
+                        <InstReportTeam>N01T05/Diary Team</InstReportTeam>
+                        <InstReportOfficer>N01D003/Alt, Andi, ZZ</InstReportOfficer>
+                        <Notes>I R Added</Notes>
+                    </InstitutionalReport>
+                </InstitutionalReportDetails>
+            </InstitutionalReport>  -->
+			<Referral>
+                <ReferralDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <Referral>
+                        <ReferralID>4235016046</ReferralID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                         <ReferralType>RT13</ReferralType>
+						 <ReferralDate>2017-06-15</ReferralDate>
+						 <ReferralSource>CUS</ReferralSource>
+						 <ReferredToProvider>C07</ReferredToProvider>
+						 <ReferredToTeam>CG007/Flex Team 1</ReferredToTeam>
+						 <ReferredToOfficer>person_6/CaseManager,CGMTest</ReferredToOfficer>
+						 <ReferralOutcome>A</ReferralOutcome>
+						 <Notes>Check Referral notes</Notes>
+                    </Referral>
+                </ReferralDetails>
+            </Referral>
+			<Assessment>
+                <AssessmentDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <Assessment>
+                        <AssessmentID>4235009500</AssessmentID>
+                        <ReferralID>4235016046</ReferralID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <AssessmentType>AT10</AssessmentType>
+						<AssessmentDate>2017-06-29</AssessmentDate>
+						<AssessmentProvider>C07</AssessmentProvider>
+						<OffenderRequiredtoAttend>Y</OffenderRequiredtoAttend>
+						<OffenderAttended>Y</OffenderAttended>
+						<AssessmentTeam>CG007/Flex Team 1</AssessmentTeam>
+						<AssessmentOfficer>person_6/CaseManager,CGMTest</AssessmentOfficer>
+						<AssessmentOutcome>SUIT</AssessmentOutcome>
+						<Notes>check assessment for regression testing</Notes>
+						<AssessmentScore>45</AssessmentScore>
+						<DurationMinutes>340</DurationMinutes>
+						<OffenderAgreement>Y</OffenderAgreement>
+
+                    </Assessment>
+                </AssessmentDetails>
+            </Assessment>
+			<CommunityRequirement>
+                <CommunityRequirementDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <CommunityRequirement>
+                        <RequirementID>4235021729</RequirementID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <RequirementTypeMainCategory>RM31</RequirementTypeMainCategory>
+                        <RequirementTypeSubCategory>RS153</RequirementTypeSubCategory>
+                        <ImposedDate>2012-11-11</ImposedDate>
+                        <ExpectedStartDate>2012-01-10</ExpectedStartDate>
+                        <ActualStartDate>2012-01-08</ActualStartDate>
+                        <Notes>For requirement test</Notes>
+                        <RQProvider>N01</RQProvider>
+                        <RQResponsibleTeam>N01T01/OMU A </RQResponsibleTeam>
+                        <RQResponsibleOfficer>N01P002/Cobio, Titus, ZZ</RQResponsibleOfficer>
+                    </CommunityRequirement>
+                </CommunityRequirementDetails>
+			</CommunityRequirement>
+			<CommReqtManager>
+                <CommReqtManagerDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <RqmntManager>
+                        <RequirementID>4235021729</RequirementID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <AllocationDate>2001-05-15</AllocationDate>
+                        <AllocationReason>IN1</AllocationReason>
+                        <Provider>N01</Provider>
+                        <ResponsibleTeam>N01T05/Diary Team</ResponsibleTeam>
+                        <ResponsibleOfficer>N01D003/Alt, Andi, ZZ</ResponsibleOfficer>
+                    </RqmntManager>
+                </CommReqtManagerDetails>
+            </CommReqtManager>
+			 <LicenceCondition>
+                <LicenceConditionDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <LicCondition>
+                        <LicConditionID>2718734235</LicConditionID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <LicCondTypeMainCategory>LPA</LicCondTypeMainCategory>
+                        <LicCondTypeSubCategory>RE2</LicCondTypeSubCategory>
+                        <SentenceDate>2012-09-08</SentenceDate>
+                        <LCProvider>N01</LCProvider>
+                        <LCResponsibleTeam>N01UAT/Unallocated Team(N01)</LCResponsibleTeam>
+                        <LCResponsibleOfficer>N01UATU/Staff, Unallocated Staff(N01)</LCResponsibleOfficer>
+                    </LicCondition>
+                </LicenceConditionDetails>
+            </LicenceCondition>
+			<LicCondManager>
+                <LicCondManagerDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <LicCondManager>
+                        <LicConditionID>2718734235</LicConditionID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <AllocationDate>2016-01-15</AllocationDate>
+                        <AllocationReason>IN1</AllocationReason>
+                        <Provider>N01</Provider>
+                        <ResponsibleTeam>N01T05/Diary Team</ResponsibleTeam>
+                        <ResponsibleOfficer>N01D003/Alt, Andi, ZZ</ResponsibleOfficer>
+                    </LicCondManager>
+                </LicCondManagerDetails>
+            </LicCondManager>
+			<PSSRequirement>
+                <PSSRequirementDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <PSSRequirement>
+                        <PSSRequirementID>9423559</PSSRequirementID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <PSSRqmntTypeMainCategory>S06</PSSRqmntTypeMainCategory>
+                        <PSSRqmntTypeSubCategory>S01</PSSRqmntTypeSubCategory>
+                        <ImposedDate>2012-09-08</ImposedDate>
+                        <PSProvider>N01</PSProvider>
+                        <PSResponsibleTeam>N01UAT/Unallocated Team(N01)</PSResponsibleTeam>
+                        <PSResponsibleOfficer>N01UATU/Staff, Unallocated Staff(N01)</PSResponsibleOfficer>
+                    </PSSRequirement>
+                </PSSRequirementDetails>
+            </PSSRequirement>
+			<PSSReqtManager>
+             <PSSReqtManagerDetails>
+                 <Offender>
+                   <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                 </Offender>
+                 <SPGVersion>
+                    <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                    <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                 </SPGVersion>
+                    <PSSRqmntManager>
+                        <PSSRequirementID>9423559</PSSRequirementID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <AllocationDate>2012-09-08</AllocationDate>
+                        <AllocationReason>IN1</AllocationReason>
+                        <Provider>N01</Provider>
+                        <ResponsibleTeam>N01UAT/Unallocated Team(N01)</ResponsibleTeam>
+                        <ResponsibleOfficer>N01UATU/Staff, Unallocated Staff(N01)</ResponsibleOfficer>
+                    </PSSRqmntManager>
+                </PSSReqtManagerDetails>
+            </PSSReqtManager>
+			<DrugsTestHDR>
+				<DrugsTestHDRDetails>
+					<Offender>
+						<CaseReferenceNumber>J974235</CaseReferenceNumber>
+					</Offender>
+					<SPGVersion>
+						<SPGVersion>00000000000000000000000000000000</SPGVersion>
+						<SPGUpdateUser>SPGUpdateUser1</SPGUpdateUser>
+					</SPGVersion>
+				 <DrugsTest>
+						<DrugsTestID>4235812</DrugsTestID>
+						<EventID>2719034235</EventID>
+						<OffenderID>4235036208</OffenderID>
+						<DateOfTest>2016-07-13</DateOfTest>
+						<TestedBy>Tester2</TestedBy>
+						<OffenderCompliance>Y</OffenderCompliance>
+						<Notes>DrugNotes2</Notes>
+					</DrugsTest>
+				</DrugsTestHDRDetails>
+            </DrugsTestHDR>
+		    <DrugsTestDTL>
+				<DrugsTestDTLDetails>
+					<Offender>
+						<CaseReferenceNumber>J974235</CaseReferenceNumber>
+					</Offender>
+					<SPGVersion>
+						<SPGVersion>00000000000000000000000000000000</SPGVersion>
+						<SPGUpdateUser>SPGUpdateUser1</SPGUpdateUser>
+					</SPGVersion>
+					<DrugTestResult>
+						<DrugTestResultID>4235912</DrugTestResultID>
+						<DrugsTestID>4235812</DrugsTestID>
+						<OffenderID>4235036208</OffenderID>
+						<DrugType>130</DrugType>
+						<AdmittedUse>Y</AdmittedUse>
+						<TestResult>TestResul1</TestResult>
+						<Agreed>Y</Agreed>
+					</DrugTestResult>
+				</DrugsTestDTLDetails>
+        </DrugsTestDTL>
+		<CustodyLocation>
+                <CustodyLocationDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <CustodyLocation>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <CurrentLocation>COMMUN</CurrentLocation>
+                        <LocationStartDate>2012-10-10</LocationStartDate>
+                    </CustodyLocation>
+                </CustodyLocationDetails>
+            </CustodyLocation>
+			<CustodyDate>
+                <CustodyDateDetails>
+                     <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>4530042E5D08FBD6E053141710AC7991</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <CustodyKeyDate>
+                        <KeyDateID>423585</KeyDateID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <KeyDateType>ROTLD</KeyDateType>
+                        <KeyDate>2017-01-18</KeyDate>
+                    </CustodyKeyDate>
+                </CustodyDateDetails>
+            </CustodyDate>
+	<!-- 		 <ApprovedPremisesReferral>
+                <ApprovedPremisesReferralDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <ApprovedPremisesReferral>
+                        <APReferralID>4235901812</APReferralID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <ReferralDate>2016-12-09</ReferralDate>
+                        <ExpectedArrivalDate>2016-12-07</ExpectedArrivalDate>
+                        <ExpectedDepartureDate>2017-10-14</ExpectedDepartureDate>
+                        <DecisionProvider>N07</DecisionProvider>
+                        <DecisionTeam>N07T01/OMU A</DecisionTeam>
+                        <DecisionOfficer>N07P002/Cobio, Titus, ZZ</DecisionOfficer>
+                        <DecisionDate>2016-12-07</DecisionDate>
+                        <ReferralCategory>C</ReferralCategory>
+                        <ReferralDecision>AI</ReferralDecision>
+                        <ReferralGroup>AA</ReferralGroup>
+                        <ApprovedPremises>Q106</ApprovedPremises>
+                        <APReferralSource>CRT</APReferralSource>
+                        <ReferralNotes>AP Referral added</ReferralNotes>
+                        <SourceType>AP</SourceType>
+                    </ApprovedPremisesReferral>
+                </ApprovedPremisesReferralDetails>
+            </ApprovedPremisesReferral>
+			<ApprovedPremisesResidence>
+                <ApprovedPremisesResidenceDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                       <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+               <ApprovedPremisesResidence>
+                        <APResidenceID>4235612</APResidenceID>
+                        <APReferralID>4235901812</APReferralID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <ArrivalDate>2016-07-12</ArrivalDate>
+                        <ExpectedDepartureDate>2016-07-12</ExpectedDepartureDate>
+                        <ArrivalNotes>ArrivalNotes1</ArrivalNotes>
+                        <DepartureDate>2016-07-12</DepartureDate>
+                        <DepartureReason>A</DepartureReason>
+                        <ApprovedPremises>Q001</ApprovedPremises>
+                        <MoveOnCategory>M</MoveOnCategory>
+                        <APTeam>APTeam1</APTeam>
+                        <APOfficer>APOfficer1</APOfficer>
+                        <APKeyWorker>APKeyWorker1</APKeyWorker>
+                    </ApprovedPremisesResidence>
+                </ApprovedPremisesResidenceDetails>
+            </ApprovedPremisesResidence>  -->
+			<UPWDetails>
+                <UPWDetailsDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <UPWDetails>
+                        <UPWDetailsID>4235011305</UPWDetailsID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <UPWLengthMinutes>1800</UPWLengthMinutes>
+                        <UPWStatus>WK</UPWStatus>
+                        <WorkedIntensively>N</WorkedIntensively>
+                    </UPWDetails>
+                </UPWDetailsDetails>
+            </UPWDetails>
+			<UPWAdjustment>
+                <UPWAdjustmentDetails>
+                     <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>429B20F133F37008E053141710AC8F33</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <UPWAdjustment>
+                        <UPWAdjustmentID>4235006002</UPWAdjustmentID>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <AdjustmentAmount>600</AdjustmentAmount>
+                        <AdjustmentDate>2016-10-17</AdjustmentDate>
+                        <AdjustmentType>POSITIVE</AdjustmentType>
+                        <AdjustmentReason>S</AdjustmentReason>
+                    </UPWAdjustment>
+                </UPWAdjustmentDetails>
+            </UPWAdjustment>
+			<UPWContact>
+				<UPWContactDetails>
+					<Offender>
+						<CaseReferenceNumber>J974235</CaseReferenceNumber>
+					</Offender>
+					<SPGVersion>
+						<SPGVersion>00000000000000000000000000000000</SPGVersion>
+						<SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+					</SPGVersion>
+					<UPWAppointment>
+						<UPWAppointmentID>4235008186</UPWAppointmentID>
+						<EventID>2719034235</EventID>
+						<OffenderID>4235036208</OffenderID>
+						<ProjectName>Clean Walls</ProjectName>
+						<ProjectType>G</ProjectType>
+						<AppointmentDate>2017-02-06</AppointmentDate>
+						<StartTime>10:00:00</StartTime>
+						<EndTime>16:00:00</EndTime>
+						<MinutesOffered>360</MinutesOffered>
+						<Notes>[System scheduled appointment]</Notes>
+						<Provider>N02</Provider>
+						<UPWTeam>N02UAT/Unallocated Team(N02)</UPWTeam>
+						<UPWContactOfficer>N02UATU/Staff, Unallocated Staff(N02)</UPWContactOfficer>
+					</UPWAppointment>
+				</UPWContactDetails>
+            </UPWContact>
+	    	<Release>
+                <ReleaseDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <Release>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <ReleaseDate>2016-01-15</ReleaseDate>
+                        <ReleaseType>ADL</ReleaseType>
+                    </Release>
+                </ReleaseDetails>
+            </Release>
+			<PSS>
+            <PSSDetails>
+                <Offender>
+                    <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                </Offender>
+                <SPGVersion>
+                    <SPGVersion>429B20F133F37008E053141710AC8F33</SPGVersion>
+                    <SPGUpdateUser>SPGUpdateUser1</SPGUpdateUser>
+                </SPGVersion>
+                <PSSContact>
+                    <EventID>2719034235</EventID>
+                    <OffenderID>4235036208</OffenderID>
+                    <PSSDate>2016-08-18</PSSDate>
+                </PSSContact>
+            </PSSDetails>
+        </PSS>
+		<RateCardIntervention>
+                <RateCardInterventionDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <RateCardIntervention>
+                        <InterventionID>4235000765</InterventionID>
+                        <OffenderID>4235036208</OffenderID>
+                        <InterventionTypeMainCategory>SLI</InterventionTypeMainCategory>
+                        <InterventionTypeSubCategory>SLI01</InterventionTypeSubCategory>
+                        <ReferralDate>2015-12-12</ReferralDate>
+                        <ExpectedStartDate>2015-12-12</ExpectedStartDate>
+                        <ActualStartDate>2015-12-12</ActualStartDate>
+                        <InterventionStatus>SLI01</InterventionStatus>
+                        <InterventionStatusDate>2015-12-12</InterventionStatusDate>
+                        <IntendedProvider>C05</IntendedProvider>
+                        <InterventionProvider>N01</InterventionProvider>
+                        <InterventionResponsibleTeam>N01T05/Diary Team</InterventionResponsibleTeam>
+                        <InterventionResponsibleOfficer>N01D003/Alt, Andi, ZZ</InterventionResponsibleOfficer>
+                    </RateCardIntervention>
+                </RateCardInterventionDetails>
+        </RateCardIntervention>
+			<ProcessContact>
+                <ProcessContactDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <ProcessContact>
+                        <ProcessID>423500758</ProcessID>
+                        <OffenderID>4235036208</OffenderID>
+                        <ProcessType>SLI</ProcessType>
+                        <ProcessSubType>SLI01</ProcessSubType>
+                        <ProcessRefDate>2015-12-12</ProcessRefDate>
+                        <ProcessExpStartDate>2015-12-12</ProcessExpStartDate>
+                        <ProcessStartDate>2015-12-12</ProcessStartDate>
+                        <ProcessEndDate>2016-12-06</ProcessEndDate>
+                        <ProcessStage>SLI01</ProcessStage>
+                        <ProcessStageDate>2015-12-12</ProcessStageDate>
+                        <ProcessNotes>Rate card added</ProcessNotes>
+                        <ProcessOutcome>COMP</ProcessOutcome>
+                        <IntendedProvider>N01</IntendedProvider>
+                        <ProcessManagerProvider>N01</ProcessManagerProvider>
+                        <ProcessManagerTeam>N01T05/Diary Team</ProcessManagerTeam>
+                        <ProcessManagerOfficer>N01D003/Alt, Andi, ZZ</ProcessManagerOfficer>
+                    </ProcessContact>
+                </ProcessContactDetails>
+            </ProcessContact>
+			<AllocateProcess>
+                <AllocateProcessDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <AllocateProcess>
+                        <ProcessContactID>4235139763</ProcessContactID>
+                        <OffenderID>4235036208</OffenderID>
+                        <NSIID>4235000758</NSIID>
+                        <ProcessStage>NREF</ProcessStage>
+                        <ProcessDate>2015-12-13</ProcessDate>
+                        <ProcessType>SLI</ProcessType>
+                        <ProcessSubType>SLI01</ProcessSubType>
+                        <ProcessRefDate>2015-12-13</ProcessRefDate>
+                        <ProcessExpStartDate>2015-12-13</ProcessExpStartDate>
+                        <ProcessStartDate>2015-12-13</ProcessStartDate>
+                        <ProcessEndDate>2016-12-06</ProcessEndDate>
+                        <ProcessOutcome>COMP</ProcessOutcome>
+                        <ProcessManagerProvider>N01</ProcessManagerProvider>
+                        <ProcessManagerTeam>N01T05/Diary Team</ProcessManagerTeam>
+                        <ProcessManagerOfficer>N01D003/Alt, Andi, ZZ</ProcessManagerOfficer>
+                    </AllocateProcess>
+                </AllocateProcessDetails>
+            </AllocateProcess>
+			<Contact>
+                <ContactDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <Contact>
+                        <ContactID>4235042359</ContactID>
+                        <OffenderID>4235036208</OffenderID>
+                        <ContactType>ERGN</ContactType>
+                        <ContactDate>2016-11-11</ContactDate>
+                        <Provider>N02</Provider>
+                        <Team>N02T01/OMU A </Team>
+                        <ContactOfficer>N02P002/Cobio, Titus, ZZ</ContactOfficer>
+                        <Notes>Type: Information - ASBO</Notes>
+                    </Contact>
+                </ContactDetails>
+            </Contact>
+            <OrderManager>
+                <OrderManagerDetails>
+                    <Offender>
+                        <CaseReferenceNumber>J974235</CaseReferenceNumber>
+                    </Offender>
+                    <SPGVersion>
+                        <SPGVersion>00000000000000000000000000000000</SPGVersion>
+                        <SPGUpdateUser>NDelius09, NDelius09</SPGUpdateUser>
+                    </SPGVersion>
+                    <OrderManager>
+                        <EventID>2719034235</EventID>
+                        <OffenderID>4235036208</OffenderID>
+                        <AllocationDate>2001-05-14</AllocationDate>
+                        <Provider>N01</Provider>
+                        <ResponsibleTeam>N01UAT/Unallocated Team(N01)</ResponsibleTeam>
+                        <ResponsibleOfficer>N01UATU/Staff, Unallocated Staff(N01)</ResponsibleOfficer>
+                        <AllocationReason>OT</AllocationReason>
+                    </OrderManager>
+                </OrderManagerDetails>
+            </OrderManager>
+        </AllocateEvent>
+        <SPGMessageTrailer>
+            <MessageReferenceNumber>68849146238818</MessageReferenceNumber>
+        </SPGMessageTrailer>
+    </SPGMessage>
+   <!--(SenderControlReference , ReceiverControlReference? , ControlCount , SenderIdentity , ReceiverIdentity)-->
+   <SPGInterchangeTrailer>
+        <SenderControlReference>16120200000378</SenderControlReference>
+        <ReceiverControlReference>1</ReceiverControlReference>
+        <ControlCount>42948854235675</ControlCount>
+        <SenderIdentity>N00</SenderIdentity>
+        <ReceiverIdentity>C20</ReceiverIdentity>
+    </SPGInterchangeTrailer>
+</SPGInterchange>
